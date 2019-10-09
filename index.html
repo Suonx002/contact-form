@@ -8,9 +8,28 @@
     <title>Contact Page</title>
   </head>
   <body>
-    <div class="container">
+    <div class="contact-container">
       <h2>Send me a message</h2>
       <p>Feel free to get in touch with me!</p>
+      <form id="form">
+        <div class="form-item">
+          <input type="text" placeholder="Your name" />
+          <div class="gradient-bg"></div>
+        </div>
+        <div class="form-item">
+          <input type="email" placeholder="Your email" />
+          <div class="gradient-bg"></div>
+        </div>
+        <div class="form-item">
+          <input type="text" placeholder="Subject" />
+          <div class="gradient-bg"></div>
+        </div>
+        <div class="form-item form-big">
+          <textarea placeholder="Message"></textarea>
+          <div class="gradient-bg"></div>
+        </div>
+        <button class="send">Send</button>
+      </form>
     </div>
     <script src="./app.js"></script>
   </body>
